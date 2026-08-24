@@ -11,6 +11,7 @@ public class Patient {
     private String medicalCondition;
     private PatientCategory patientCategory;
 
+    //constructor
     public Patient(String patientID, String firstName, String lastName, int age, String gender, String medicalCondition,PatientCategory patientCategory) {
         this.patientID = patientID;
         this.firstName = firstName;
@@ -21,6 +22,7 @@ public class Patient {
         this.patientCategory = patientCategory;
     }
 
+    //getters
     public String getPatientID() {
         return patientID;
     }
@@ -49,6 +51,7 @@ public class Patient {
         return patientCategory;
     }
 
+    //setters
     public void setPatientID(String patientID) {
         this.patientID = patientID;
     }
@@ -77,7 +80,7 @@ public class Patient {
         this.patientCategory = patientCategory;
     }
     
-    
+    //print table
     public void DisplayPateintDetails(){
             System.out.println("Patient ID:"+patientID);
             System.out.println("irst name:"+firstName);
