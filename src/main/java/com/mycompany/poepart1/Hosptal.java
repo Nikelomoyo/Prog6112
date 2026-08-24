@@ -6,7 +6,7 @@ import java.util.Comparator;
 
 public class Hosptal {
 
-    // ArrayList stores all registered patients
+    // ArrayList stores all registered patientss
     private ArrayList<Patient> patients;
 
     // 4 x 5 two-dimensional array representing the 20 beds
