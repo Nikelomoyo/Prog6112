@@ -125,7 +125,7 @@ public class PoePart1 {
         System.out.println("12. Sort Patients by Surname");
         System.out.println("13. Sort Patients by Patient ID");
 
-        System.out.println("----------------------------------------");
+        System.out.println("-----------------------------------------");
 
         System.out.println("0.  Exit");
 
