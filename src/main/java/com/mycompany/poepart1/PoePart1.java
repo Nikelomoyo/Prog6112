@@ -217,7 +217,7 @@ public class PoePart1 {
     // UPDATE
     private static void updatePatient() {
 
-        System.out.println("\n========== Update Patient ==========");
+        System.out.println("\n========== Update patient ==========");
 
         String patientId = readString("Enter Patient ID: ");
 
